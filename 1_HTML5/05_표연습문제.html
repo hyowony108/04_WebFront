@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>05_표연습문제</title>
+  
+  <style>
+    
+    .tb3{
+      border: 1px solid rgb(70, 68, 182);
+    }
+
+    .tb3 tbody {
+      background-color: rgb(255, 255, 255);
+    }
+
+    .tb3 tfoot {
+      background-color: rgb(255, 253, 220);
+    }
+
+    .tb3 tbody th, .tb3 tfoot th {
+      background-color: rgb(115, 198, 253);
+      color: rgb(7, 55, 87);
+    }
+
+    .tb3 thead {
+      background-color: rgb(178, 237, 255);
+      color : rgb(34, 61, 100)
+    }
+
+    .tb3 th, .tb3 td{
+      border: 1px solid rgba(49, 118, 136, 0.397);
+    }
+
+
+    .tb2 td {
+      width: 60px;
+      height: 80px;
+    }
+  </style>
+</head>
+<body>
+
+  <table border="1" class="tb3">
+
+    <thead>
+      <th colspan="5">하수정컬렉션</th>
+    </thead>
+
+    <tbody>
+      <tr>      
+        <th rowspan="5">제품리스트</th>
+        <th>코드</th>
+        <th>분류</th>
+        <th>가격</th>
+        <th>구매가능개수</th>
+      </tr>
+
+      <tr>
+        <td>01-468</td>
+        <td>봄</td>
+        <td>200,000원</td>
+        <td>1068</td>
+      </tr>
+
+      <tr>
+        <td>01-223</td>
+        <td>여름</td>
+        <td>200,000원</td>
+        <td>976</td>
+      </tr>
+
+      <tr>
+        <td>01-626</td>
+        <td>가을</td>
+        <td>200,000원</td>
+        <td>1205</td>
+      </tr>
+
+      <tr>
+        <td>01-245</td>
+        <td>겨울</td>
+        <td>200,000원</td>
+        <td>537</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <th colspan="3">총합</th>
+        <td>800,000원</td>
+        <td>3786</td>
+      </tr>
+    </tfoot>
+  </table>
+  
+  <hr>
+
+  <table border="1" class="tb2">
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td rowspan="2">3</td>
+      <td>4</td>
+    </tr>
+
+    <tr>
+      <td colspan="2">5</td>
+      <td rowspan="2">6</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td colspan="2">8</td>
+    </tr>
+
+  </table>
+</body>
+</html>
