@@ -9,209 +9,220 @@
 </head>
 <body>
 
-  <main>
-    <header>
-      <section class="start">
-        <a href="#">
-          <button id="hambugi" class="fa-solid fa-bars"></button>
-        </a>
-        <button id="youtube">
-          <img src="../images/youtube logo 01.png" id="ytlogo">
-        </button>
-      </section>
+  <header>
+    <section class="start">
+      <button id="hambugi" class="fa-solid fa-bars"></button>
 
-      <section class="center">
-        <section class="search">
-          <form action="#" name="Search-form">
-            <fieldset>
+      <button id="youtube">
+        <img src="../images/youtube logo 01.png">
+      </button>
+    </section>
+
+    <section class="center">
+      <section class="search">
+        <form action="#" name="Search-form">
+          <div class="search-1">
+            <div class="search-area">
               <input type="search" id="query" name="query"
               autocomplete="off" placeholder="검색">
-              <i class="fa-solid fa-keyboard"></i>
+              <i class="fa-solid fa-keyboard" id="keyboard"></i>
+            </div>
+
+            <div class="search-icon">
               <button class="fa-solid fa-magnifying-glass"></button>
-            </fieldset>
-          </form>
-        </section>
-
-        <section class="mic">
-          <button class="fa-solid fa-microphone"></button>
-        </section>
+            </div>
+          </div>
+        </form>
       </section>
 
-      <section class="end">
-        <section class="setting">
-          <button class="fa-solid fa-ellipsis-vertical"></button>
-        </section>
-        <section class="login">
-          <button>
-            <i class="fa-solid fa-user"></i>
-            <p>로그인</p>
-          </button>
-        </section>
+      <section class="mic">
+        <button class="fa-solid fa-microphone"></button>
       </section>
-    </header>
+    </section>
 
+    <section class="end">
+      <section>
+        <button id="setting" class="fa-solid fa-ellipsis-vertical"></button>
+      </section>
+      <section>
+        <button class="login">
+          <i class="fa-solid fa-user"></i>
+          <p>로그인</p>
+        </button>
+      </section>
+    </section>
+  </header>
 
-    <section class="container">
-      <section class="left">
-        <section>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/iVJ1-H1jV3Q?si=0PraMToXx3kShLeJ" 
+  <main>
+   <section class="container">
+      <div class="left">
+        <div class="main-video">
+          <iframe src="https://www.youtube.com/embed/iVJ1-H1jV3Q?si=0PraMToXx3kShLeJ" 
           title="YouTube video player" frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
           referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </section>
+        </div>
        
         <section class="Information">
           <section class="Iheader">
-            <section class="profile">
-              <section>
-                <button>
-                  <img src="../images/yanggang.jpg">
-                </button>
-              </section>
 
-              <section>
-                <section id="title">
-                  <a href="#">김양갱은 못말려</a>
+            <div>
+              <p>16만 유튜버 김양갱 귀염뽀짝 아기 시절 최초 공개</p>
+            </div>
+
+            <section class="info">
+              <section class="profile">
+                  <div>
+                    <button>
+                      <img src="../images/yanggang.jpg">
+                    </button>
+                  </div>
+    
+                  <section class="title">
+                    <section>
+                      <a href="#">김양갱은 못말려</a>
+                    </section>
+                    <section>
+                      <p>구독자 16.5만명</p>
+                    </section>
+                  </section>
+    
+                  <section>
+                    <button id="gudok">
+                      <p>구독</p>
+                    </button>
+                  </section>
+              </section>
+                
+              <div class="gudok-bar">
+                <section class="like">
+                  <button>
+                    <i class="fa-regular fa-thumbs-up" id="thumbs"></i>
+                    <p>876</p>
+                  </button>
+                  
+                  <span>|</span>
+                  
+                  <section class="delike">
+                    <button class="fa-regular fa-thumbs-up" id="thumbs"></button>
+                  </section>
                 </section>
-                <section id="subscription">
-                  <p>구독자 16.5만명</p>
-                </section>
-              </section>
+                
+                <div class="side">
+                  <button class="fa-solid fa-share" id="side">
+                    <p>공유</p>
+                  </button>
+                
+                  <button class="fa-solid fa-bookmark" id="side">
+                    <p>저장</p>
+                  </button>
+                
+                  <button class="fa-solid fa-ellipsis" id="side1"></button>
+                </div>
+              </div>
             </section>
-
-            <section>
-              <button class="fa-regular fa-thumbs-up">
-                <p>876</p>
-              </button>
-
-              <span>|</span>
-
-              <section>
-                <button class="fa-regular fa-thumbs-up"></button>
-              </section>
-            </section>
-
-            <section>
-              <button class="fa-solid fa-share"></button>
-            </section>
-
-            <section>
-              <button class="fa-solid fa-bookmark"></button>
-            </section>
-
-            <section>
-              <button class="fa-solid fa-ellipsis"></button>
-            </section>
+            
           </section>
 
-
           <section class="Ifooter">
-            <section>
-              <p>조회수 1.8만회  2일 전  5개 제품</p>
-            </section>
+            <div>
+              <span>조회수 1.8만회</span>
+              <span>2일 전</span>
+              <span>5개 제품</span>
+            </div>
 
-            <section>
+            <section class="under">
               <p>#강아지 #dog #pomeranian #강아지브이로그 #브이로그 #포메라니안</p>
             </section>
           </section>
+
         </section>
 
 
         <section class="comment">
-          <section>
+          <div class="comment1">
             <section>
-              <p>댓글 110개</p>
+              <p id="comment2">댓글 110개</p>
             </section>
 
             <section>
-              <button>
+              <button class="rota">
                 <i class="fa-regular fa-chart-bar"></i>
                 <p>정렬기준</p>
               </button>
             </section>
-          </section>
+          </div>
 
-          <section>
-            <section id="profile">
+          <div class="pro-coment">
               <img src="../images/unnamed.jpg">
-            </section>
 
-            <section>
+            <section class="add-coment">
               <form action="#">
                 <input type="text" id="comment" name="comment"
                 autocomplete="off" placeholder="댓글추가...">
               </form>
             </section>
+          </div>
+
+
+            
+          <section class="comment-1">
+            <div class="comment-1-ji">
+              <div id="Afprofile">
+                <button>
+                  <img src="../images/unnamed.jpg">
+                </button>
+              </div>
+
+              <div>
+                <div class="di1">
+                  <a href="#">@jiyeong4517</a>
+                  <p>2일전</p>
+                </div>
+                <p id="cute-gang">양갱이는 어떻게 원숭이시기도 귀여운가요 대체!!!!</p>
+
+                <div class="di2">
+                    <button class="fa-regular fa-thumbs-up"></button>
+                  
+                    <p>42</p>
+                  
+                    <button id="dilike" class="fa-regular fa-thumbs-up"></button>
+
+                      <div id="com1">
+                        <div id="com2">
+                            <img id="gang" src="../images/yanggang.jpg">
+                            <i id="heart" class="fa-solid fa-heart"></i>
+                        </div>
+      
+                          <button>
+                            <p>답글</p>
+                          </button>
+                      </div>
+                      
+                    </div>
+                    <section id="Reply">
+
+                      <button class="fa-solid fa-chevron-down"></button>
+
+                      <img id="gang2" src="../images/yanggang.jpg">
+
+                      <p>・</p>
+          
+                      <button>
+                        <p>답글 1개</p>
+                      </button>
+                    </section>
+                </div>
+                  
+            </div>
+                 
           </section>
 
-          <section>
-            <section id="Afprofile">
-              <button>
-                <img src="../images/unnamed.jpg">
-              </button>
-            </section>
-
-            <section id="comment-1">
-              <section>
-                <a href="#">@jiyeong4517</a>
-                <p>2일전</p>
-              </section>
-
-              <section>
-                <p>양갱이는 어떻게 원숭이시기도 귀여운가요 대체!!!!</p>
-              </section>
-
-              <section id="com1">
-                <section>
-                  <button class="fa-regular fa-thumbs-up"></button>
-                </section>
-
-                <section>
-                  <p>42</p>
-                </section>
-                
-                <section>
-                  <button class="fa-regular fa-thumbs-up"></button>
-                </section>
-
-                <section>
-                  <div>
-                    <img src="../images/yanggang.jpg">
-                  </div>
-                  <div>
-                    <i class="fa-solid fa-heart"></i>
-                  </div>
-                </section>
-
-                <section>
-                  <button>
-                    <p>답글</p>
-                  </button>
-                </section>
-              </section>
-            </section>
-          </section>
-
-          <section id="Reply">
-            <div>
-              <button class="fa-solid fa-chevron-down"></button>
-            </div>
-
-            <div>
-              <img src="../images/yanggang.jpg">
-            </div>
-
-            <div>
-              <button>
-                <p>답글</p>
-              </button>
-            </div>
-          </section>
         </section>
-      </section>
+      </div>
 
 
-      <section class="right">
+      <div class="right">
         <section class="advertisement">
           <div>
             <img>
@@ -261,7 +272,7 @@
           </section>
         </section>
 
-      </section>
+      </div>
     </section>
 
 
