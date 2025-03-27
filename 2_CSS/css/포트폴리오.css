@@ -551,7 +551,7 @@ header {
   width: 36px;
   height: 36px;
   position: relative;
-  border: 1px solid #5a5a5a;
+  /* border: 1px solid #5a5a5a; */
 }
 
 #gang {
@@ -570,11 +570,12 @@ header {
   position: absolute;
   /* background-color: #5a5a5a; */
 
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  bottom: -10px;
+  right: -10px;
   margin: auto;
+
+  color: red;
+  font-size: 15px;
 }
 
 #com1>button>p {
