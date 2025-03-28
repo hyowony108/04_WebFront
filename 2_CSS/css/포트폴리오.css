@@ -611,3 +611,63 @@ header {
   font-size: 16px;
   margin: 0;
 }
+
+/* ------------------------------------------------------------------ */
+
+.right {
+  border: 1px solid beige;
+  display: flex;
+  flex-direction: column;
+}
+
+.advertisement {
+  display: flex;
+  border: 1.5px solid #bbb;
+  
+  width: 402px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+#kh {
+  width: 200px;
+  height: 250px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.text {
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.text p {
+  font-size: 13px;
+  line-height:20px;
+}
+
+.text br {
+  height: -10px;
+}
+
+.text > p:nth-child(3) {
+  font-weight: 100;
+  line-height:10px;
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+.advertisement button {
+  background-color: rgb(93, 100, 192);
+  border: none;
+  border-radius: 30px;
+  margin-left: 10px;
+  margin-top: 3px;
+  width: 100px;
+}
+
+.advertisement button > p {
+  /* font-weight: bold; */
+  font-size: 10px;
+  color: white;
+}
