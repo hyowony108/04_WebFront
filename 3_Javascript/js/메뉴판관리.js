@@ -29,14 +29,22 @@ document.querySelector("#updateBtn").addEventListener("click", () => {
   document.querySelector(".btn-container").style.display = "none";
   document.querySelector(".b-hidden").style.display = "block";
 
-  
+  document.querySelector(".menu > span").style.display = "none";
 
   const input = document.createElement("input");
 
   input.setAttribute("type", "text");
 
-  input.value = ;
+  input.value = document.querySelector(".menu-name").innerText;
 
+  const input2 = document.createElement("input2");
+
+  input2.setAttribute("type", "text");
+
+  input2.value = document.querySelector(".menu-price").innerText;
+
+  document.querySelector(".menu").append(input);
+  document.querySelector(".menu").append(input2);
   
 
 
