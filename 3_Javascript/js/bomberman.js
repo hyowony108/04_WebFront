@@ -18,7 +18,7 @@ document.addEventListener("keydown" , function(e) {
     `<img src="../../images/bomb.png"
       class="bomb"
       style="transform: translate(${xindex}px, ${yindex}px);
-      position:absolute>"`;
+      position:absolute">`;
     break;
     case 'z' : explodeBomb(); break;
     default: alert("방향키, z, x 만 가능");

@@ -1,0 +1,84 @@
+/* div {
+  border: 1px solid black;
+} */
+
+fieldset {
+  width: 1000px;
+  padding-left: 30px;
+}
+
+.tit {
+  display: flex;
+}
+
+.titl { 
+  margin: 0px 30px;
+}
+
+.title {
+  width: 503px;
+}
+
+
+.area {
+  display: flex;
+}
+
+.in{
+  margin: 0px 30px;
+}
+
+.in b {
+  line-height: 140px;
+}
+
+.file {
+  display: flex;
+}
+
+.file1 { 
+  margin: 0px 14px;
+}
+
+.ins { 
+  margin-left: 200px;
+}
+
+
+
+.tb thead {
+  height: 20px;
+}
+
+.tb thead, .tb tfoot {
+  background-color: lightsalmon;
+  color: white
+}
+
+.tb tbody { 
+  background-color: lightgoldenrodyellow;
+}
+
+.tb { 
+  width: 1000px;
+}
+
+.tb button {
+  width: 100%;
+ }
+ 
+ .tb thead :nth-child(2){
+  width: 500px;
+ }
+
+ .name {
+  width: 100px;
+ }
+
+ .search {
+  width: 50px;
+ }
+
+ .button { 
+  width: 100px;
+ }
