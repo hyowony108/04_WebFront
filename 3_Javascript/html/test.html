@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/3_Javascript/css/test.css">
+</head>
+<body>
+  <section>
+    <div>
+      <div>
+       너비 : <input type="text" id="width"> px
+      </div>
+      <div>
+       높이 : <input type="text" id="height"> px
+      </div>
+    </div>
+
+     <br>
+
+    <div>
+      <div>
+       글자크기 : <input type="text" id="fontSize"> px
+      </div>
+      <div>
+        굵기 : 
+        <label for="nomal">보통
+          <input type="radio" id="nomal" name="font" value="nomal">
+        </label>
+        <label for="bold">굵게
+          <input type="radio" id="bold" name="font" value="bold">
+        </label>
+      </div> 
+    </div>
+
+     <br>
+
+    <div>
+      <div>
+       글자색 : <input type="text" id="fontCo">
+     </div>
+     <div>
+       배경색 : <input type="text" id="backColor">
+     </div>
+    </div>
+
+    <br>
+
+    <div>
+      가로정렬 : 
+      <label> 왼쪽
+        <input type="radio" id="left" name="rows">
+      </label>
+      <label> 가운데
+        <input type="radio" id="center" name="rows">
+      </label>
+      <label> 오른쪽
+        <input type="radio" id="right" name="rows">
+      </label>
+    </div>
+
+    <br>
+
+    <div>
+      세로정렬 : 
+      <label> 위
+        <input type="radio" id="up" name="col">
+      </label>
+      <label> 가운데
+        <input type="radio" id="center-c" name="col">
+      </label>
+      <label> 아래
+        <input type="radio" id="down" name="col">
+      </label>
+    </div>
+
+    <br>
+
+    <div>
+      출력 문자열 : <input type="text" id="input">
+    </div>
+    
+    <br>
+    
+    <button class="start">적용하기</button>
+
+    <div class="object">
+      <p class="text"></p>
+    </div>
+
+  </section>
+  
+  <script src="/3_Javascript/js/test.js"></script>
+</body>
+</html>
